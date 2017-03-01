@@ -1,0 +1,38 @@
+#center {
+
+	text-align: center;
+	color: blue 
+	
+}
+
+
+p {
+    border: 1px solid black;
+    outline-color: red;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+}
+
+h1 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+h1:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+
+h1:before {
+  left: 0;
+}
